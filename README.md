@@ -12,6 +12,7 @@ Some test cases:
     0
 
 Running as script (works only with **Python 3**):
+
     $ python holes.py aça a10 bBc *g%
 
     palavra 'aça' contém '2' buraco(s)
