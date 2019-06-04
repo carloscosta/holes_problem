@@ -59,7 +59,7 @@ def num_buracos(param=None):
 ####### MAIN ########
 if __name__ == "__main__":
     USERARGS = sys.argv[1:] or list()
-    if USERARGS:
+    if not USERARGS:
         print("No args! expecting a list of words")
         sys.exit(-1)
     else:
